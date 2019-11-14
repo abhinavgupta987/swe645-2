@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<!-- Abhinav Gupta - This is an xhtml file which is linked to style.css and is a Survey Form for prospective students -->
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Survey Form</title>
+<link href="style.css" rel="stylesheet" type="text/css"></link>
+</head>
+<body>
+
+<form method="post" action="" class="formb">  
+	<h1 class="border"><strong>Help us improve by filling this feedback form about your campus visit</strong></h1>
+	
+  <table border = "1">
+	
+  	<tbody>
+  		<tr>
+  			<th><label>First Name:</label></th>
+  			<th><input type="text" name="fname" size="45" required="required" /></th>
+  		</tr>
+  		
+  		<tr>
+  			<th><label>Last Name:</label></th>
+  			<th><input type="text" name="lname" size="45" required="required" /></th>
+  		</tr>
+
+  		<tr>
+  			<th><label>Street Address:</label></th>
+  			<th><input type="text" name="street" size="45" required="required" /></th>
+  		</tr>
+
+  		<tr>
+  			<th><label>City:</label></th>
+  			<th><input type="text" name="city" size="45" required="required" /></th>
+  		</tr>
+
+  		<tr>
+  			<th><label>State:</label></th>
+  			<th><input type="text" name="state" size="45" required="required"/></th>
+  		</tr>
+
+  		<tr>
+  			<th><label>Zip:</label></th>
+  			<th><input type="text" name="zip" size="45" required="required" /></th>
+  		</tr>
+
+  		<tr>
+  			<th><label>Telephone Number:</label></th>
+  			<th><input type="text" name="telephone" size="45" required="required" /></th>
+  		</tr>
+
+  		<tr>
+  			<th><label>E-mail:</label></th>
+  			<th><input type="text" name="email" size="45" required="required"/></th>
+  		</tr>
+
+  		<tr>
+  			<th><label>Date of Survey:</label></th>
+  			<th><input type="text" name="fillDate" size="45" required="required"/></th>
+  		</tr>
+
+		<tr>
+  			<th><strong>What did you like most about the campus:</strong></th>
+  			<th>
+  				<label><input type="checkbox" name="liked" size="45" checked="checked" />Students</label>
+  				<label><input type="checkbox" name="liked" size="45" />Location</label>
+  				<label><input type="checkbox" name="liked" size="45" />Campus</label>
+  				<label><input type="checkbox" name="liked" size="45" />Atmosphere</label>
+  				<label><input type="checkbox" name="liked" size="45" />Dorm Rooms</label>
+  				<label><input type="checkbox" name="liked" size="45" />Sports</label>
+  			</th>
+  		</tr>
+
+  		<tr>
+  			<th><strong>How did you become interested about the university:</strong></th>
+  			<th><input type="radio" name="interested" size="45" /><label>Friends</label>
+  			<input type="radio" name="interested" size="45" /><label>Television</label>
+  			<input type="radio" name="interested" size="45" /><label>Internet</label>
+  			<input type="radio" name="interested" size="45" /><label>Others</label></th>
+  		</tr>
+  		
+  		<tr>
+  			<th><label>How likely are you to reccomend this school to other prospective studnets:</label></th>
+  			<th><select name="likelihood">
+					<option value="Very Likely">Very Likely</option>
+					<option value="Likely">Likely</option>
+					<option value="Unlikely">Unlikely</option>
+					</select>
+				</th>
+  		</tr>
+
+		<tr>
+  			<th><label>Raffle(Enter atleast 10 comma seperated numbers from 1-100):</label></th>
+  			<th><input type="text" name="raffle" size="45"/></th>
+  		</tr>
+
+  		<tr>
+  			<th><label>Additional comments:</label></th>
+  			<th><textarea name="comments" rows="4" cols="40">Enter comments here.</textarea></th>
+  		</tr>
+
+  	</tbody>
+  	
+
+  </table>
+  <input type="submit" value="Submit" />
+  <input type="reset" value="Cancel"/>
+  </form>	
+
+</body>
+</html>
